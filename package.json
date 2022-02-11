@@ -1,0 +1,37 @@
+{
+  "name": "vue-msal-fixed",
+  "version": "1.0.0",
+  "description": "Vue plugin for using Microsoft Authentication Library (MSAL)",
+  "main": "dist/plugin.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwert09/vue-msal-fixed.git"
+  },
+  "keywords": [
+    "vue",
+    "msal",
+    "adal",
+    "authentication",
+    "sso"
+  ],
+  "author": "Mert Kılıç",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwert09/vue-msal-fixed/issues"
+  },
+  "homepage": "https://github.com/mwert09/vue-msal-fixed#readme",
+  "eslintIgnore": [
+    "lib/*.*"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "lodash": "^4.17.15",
+    "msal": "1.4.1"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.138"
+  }
+}
