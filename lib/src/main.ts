@@ -128,7 +128,6 @@ export class MSAL implements MSALBasic {
         } catch (error: any) {
             // Upon acquireTokenSilent failure (due to consent or interaction or login required ONLY)
             // Call acquireTokenRedirect
-            console.log(error);
             if (this.requiresInteraction(error.errorCode)) {
                 this.lib.acquireTokenRedirect(request);
             } else if(retries > 0) {
